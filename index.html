@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sanskrit Saṅgraha — Learn Sanskrit</title>
+  <meta name="description" content="A gentle guide to Sanskrit vocabulary and phrases — flashcards, quizzes and pronunciation, all in your browser." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="#" data-goto="home">
+        <span class="brand-mark" aria-hidden="true">सं</span>
+        <span class="brand-word">Sanskrit Saṅgraha</span>
+      </a>
+      <nav class="tabs" role="tablist" aria-label="Main sections">
+        <button class="tab active" role="tab" data-view="home" aria-selected="true">Home</button>
+        <button class="tab" role="tab" data-view="cards" aria-selected="false">Flashcards</button>
+        <button class="tab" role="tab" data-view="quiz" aria-selected="false">Quiz</button>
+        <button class="tab" role="tab" data-view="vocab" aria-selected="false">Vocabulary</button>
+        <button class="tab" role="tab" data-view="progress" aria-selected="false">Progress</button>
+      </nav>
+      <a class="header-cta" href="#" data-goto="cards">
+        Start practising
+        <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </header>
+
+    <main>
+      <section id="view-home" class="view active" aria-labelledby="home-title">
+        <div class="hero">
+          <div class="hero-copy">
+            <p class="overline"><span class="rule"></span>An invitation to steady practice</p>
+            <h1 class="display" id="home-title">An ancient tongue.<br /><em>A living practice.</em></h1>
+            <p class="lede">A gentle guide to Sanskrit vocabulary and phrases — a practical map for reading, speaking, and meeting an old language with fresh patience.</p>
+            <div class="hero-actions">
+              <a class="btn solid" href="#" data-goto="cards">
+                Start practising
+                <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a class="text-link" href="#" data-goto="vocab">
+                Browse the words
+                <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path d="M8 3v10M3.5 8.5 8 13l4.5-4.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+            <div class="hero-note">
+              <span class="sun" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.1"/><g stroke="currentColor" stroke-width="1.1" stroke-linecap="round"><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.4 5.4l1.5 1.5M17.1 17.1l1.5 1.5M18.6 5.4l-1.5 1.5M6.9 17.1l-1.5 1.5"/></g></svg>
+              </span>
+              <div>
+                <strong>A little wisdom, made approachable.</strong>
+                <span>Begin wherever you are.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-hidden="true">
+            <svg class="art-svg" viewBox="0 0 560 640" role="img" aria-label="A seated figure before a rising sun in an arched landscape">
+              <defs>
+                <clipPath id="arch"><path d="M0 300 A280 280 0 0 1 560 300 V640 H0 Z"/></clipPath>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#e7eedd"/>
+                  <stop offset="1" stop-color="#dae5d1"/>
+                </linearGradient>
+              </defs>
+              <g clip-path="url(#arch)">
+                <rect width="560" height="640" fill="url(#sky)"/>
+                <g fill="none" stroke="#c3d3b8" stroke-width="1.1">
+                  <circle cx="280" cy="300" r="96"/>
+                  <circle cx="280" cy="300" r="130"/>
+                  <circle cx="280" cy="300" r="164"/>
+                  <circle cx="280" cy="300" r="198"/>
+                  <circle cx="280" cy="300" r="232"/>
+                </g>
+                <circle cx="280" cy="300" r="88" fill="#e9b183"/>
+                <path d="M0 470 120 372 214 446 302 360 420 470 560 396V640H0Z" fill="#a9bfa2"/>
+                <path d="M0 522 96 452 196 520 300 448 410 524 510 470 560 500V640H0Z" fill="#93ac8c"/>
+                <ellipse cx="280" cy="500" rx="58" ry="15" fill="#c97f52"/>
+                <path d="M280 402c-18 0-30 16-36 44-4 20-7 30-9 40h90c-2-10-5-20-9-40-6-28-18-44-36-44z" fill="#2e4a3b"/>
+                <circle cx="280" cy="386" r="17" fill="#2e4a3b"/>
+                <g stroke="#4e6a51" stroke-width="1.8" fill="none" stroke-linecap="round">
+                  <path d="M78 610C76 570 80 540 92 516"/>
+                  <path d="M92 516c-12 4-18 12-20 24 13-3 18-12 20-24"/>
+                  <path d="M88 546c12 2 18 10 22 22-13-2-19-10-22-22"/>
+                  <path d="M84 574c-11 3-16 10-18 21 12-2 16-10 18-21"/>
+                </g>
+                <g stroke="#4e6a51" stroke-width="1.8" fill="none" stroke-linecap="round">
+                  <path d="M498 604C500 566 496 538 484 514"/>
+                  <path d="M484 514c12 4 18 12 20 24-13-3-18-12-20-24"/>
+                  <path d="M488 544c-12 2-18 10-22 22 13-2 19-10 22-22"/>
+                  <path d="M492 572c11 3 16 10 18 21-12-2-16-10-18-21"/>
+                </g>
+                <text x="432" y="96" font-family="'Noto Serif Devanagari', serif" font-size="21" fill="#6f7b64" opacity=".8" text-anchor="middle">संस्कृतम्</text>
+                <text x="412" y="604" font-family="Inter, sans-serif" font-size="10" letter-spacing="1.6" fill="#5f6b57" text-anchor="middle">A PRACTICE OF RETURNING</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-foot">
+          <span>An ancient language for a modern life</span>
+          <span class="hero-foot-right">136 words · 12 themes <span class="dashline"></span> Scroll to explore</span>
+        </div>
+
+        <section class="practice" aria-label="Ways to practise">
+          <p class="overline"><span class="rule"></span>The practice</p>
+          <div class="practice-rows">
+            <a class="practice-row" href="#" data-goto="cards">
+              <span class="num">01</span>
+              <span class="ptitle">Flashcards</span>
+              <span class="pdesc">Reveal the meaning, then keep what you know.</span>
+              <span class="parrow"><svg viewBox="0 0 16 16" width="17" height="17" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+            <a class="practice-row" href="#" data-goto="quiz">
+              <span class="num">02</span>
+              <span class="ptitle">Quiz</span>
+              <span class="pdesc">Ten questions, four choices, in either direction.</span>
+              <span class="parrow"><svg viewBox="0 0 16 16" width="17" height="17" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+            <a class="practice-row" href="#" data-goto="vocab">
+              <span class="num">03</span>
+              <span class="ptitle">Vocabulary</span>
+              <span class="pdesc">The whole library, searchable by word or meaning.</span>
+              <span class="parrow"><svg viewBox="0 0 16 16" width="17" height="17" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+            <a class="practice-row" href="#" data-goto="progress">
+              <span class="num">04</span>
+              <span class="ptitle">Progress</span>
+              <span class="pdesc">What you have met, and what still waits for you.</span>
+              <span class="parrow"><svg viewBox="0 0 16 16" width="17" height="17" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M6 4.5h5.5V10" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </a>
+          </div>
+        </section>
+      </section>
+
+      <section id="view-cards" class="view" aria-labelledby="cards-title">
+        <div class="view-head">
+          <div>
+            <p class="overline"><span class="rule"></span>The daily practice</p>
+            <h2 id="cards-title">Flashcards</h2>
+            <p class="muted">Tap a card to reveal the meaning. Mark what you already know.</p>
+          </div>
+          <div class="controls">
+            <label class="sr-only" for="deck-category">Deck</label>
+            <select id="deck-category"></select>
+            <button id="shuffle-deck" class="btn ghost" type="button">Shuffle</button>
+          </div>
+        </div>
+
+        <div class="deck-meta">
+          <div class="bar" role="progressbar" aria-label="Cards known in this deck" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="deck-bar-wrap">
+            <span id="deck-bar"></span>
+          </div>
+          <span id="deck-count" class="muted small"></span>
+        </div>
+
+        <div class="card-stage">
+          <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Flashcard — activate to reveal">
+            <div class="face front">
+              <span class="card-cat" id="card-cat">Greetings</span>
+              <span class="devanagari big" id="card-dev">नमस्ते</span>
+              <span class="hint">tap to reveal</span>
+            </div>
+            <div class="face back">
+              <span class="card-cat" id="card-cat-back">Greetings</span>
+              <span class="devanagari medium" id="card-dev-back">नमस्ते</span>
+              <span class="iast" id="card-iast">namaste</span>
+              <span class="english" id="card-en">hello</span>
+              <span class="hint">tap to flip back</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <button id="again-btn" class="btn ghost" type="button">Needs practice</button>
+          <button id="audio-btn" class="btn ghost" type="button">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 8.5a4.5 4.5 0 0 1 0 7M18.5 6a8 8 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            Listen
+          </button>
+          <button id="known-btn" class="btn primary" type="button">I know this</button>
+        </div>
+        <p class="kbd-hint muted small">Space flips · ← → move · K marks known</p>
+      </section>
+
+      <section id="view-quiz" class="view" aria-labelledby="quiz-title">
+        <div class="view-head">
+          <div>
+            <p class="overline"><span class="rule"></span>Test your recall</p>
+            <h2 id="quiz-title">Quiz</h2>
+            <p class="muted">Ten questions, four choices. Your best score is saved.</p>
+          </div>
+        </div>
+
+        <div id="quiz-setup" class="panel">
+          <p class="panel-label">Choose a direction</p>
+          <div class="segmented" id="quiz-direction" role="group" aria-label="Quiz direction">
+            <button class="active" type="button" data-dir="en2sa">English → Sanskrit</button>
+            <button type="button" data-dir="sa2en">Sanskrit → English</button>
+          </div>
+          <button id="start-quiz" class="btn primary" type="button">Start quiz</button>
+          <p class="muted small">Best score: <strong id="best-score">—</strong></p>
+        </div>
+
+        <div id="quiz-play" class="panel hidden">
+          <div class="quiz-meta">
+            <span id="quiz-progress" class="muted small"></span>
+            <span id="quiz-score" class="muted small"></span>
+          </div>
+          <h3 class="quiz-question" id="quiz-question"></h3>
+          <div class="options" id="quiz-options"></div>
+          <div class="feedback" id="quiz-feedback" aria-live="polite"></div>
+          <button id="quiz-next" class="btn primary hidden" type="button">Next</button>
+        </div>
+
+        <div id="quiz-result" class="panel hidden">
+          <h3 id="result-heading"></h3>
+          <p class="result-score" id="result-score"></p>
+          <p class="muted" id="result-note"></p>
+          <div id="result-misses"></div>
+          <div class="panel-actions">
+            <button id="retry-quiz" class="btn primary" type="button">Try again</button>
+            <button id="back-to-quiz-setup" class="btn ghost" type="button">Change direction</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-vocab" class="view" aria-labelledby="vocab-title">
+        <div class="view-head">
+          <div>
+            <p class="overline"><span class="rule"></span>The whole library</p>
+            <h2 id="vocab-title">Vocabulary</h2>
+            <p class="muted">Every word and phrase on the site, searchable.</p>
+          </div>
+          <div class="controls">
+            <label class="sr-only" for="vocab-search">Search vocabulary</label>
+            <input id="vocab-search" type="search" placeholder="Search Devanagari or English…" autocomplete="off" />
+          </div>
+        </div>
+        <div id="vocab-list"></div>
+      </section>
+
+      <section id="view-progress" class="view" aria-labelledby="progress-title">
+        <div class="view-head">
+          <div>
+            <p class="overline"><span class="rule"></span>Your practice so far</p>
+            <h2 id="progress-title">Progress</h2>
+            <p class="muted">Saved in this browser only. Nothing leaves your device.</p>
+          </div>
+          <button id="reset-progress" class="btn ghost danger" type="button">Reset progress</button>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <span class="stat-value" id="stat-known">0</span>
+            <span class="stat-label">words known</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-total">0</span>
+            <span class="stat-label">words in library</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-reviewed">0</span>
+            <span class="stat-label">cards reviewed</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value" id="stat-best">—</span>
+            <span class="stat-label">best quiz score</span>
+          </div>
+        </div>
+
+        <h3 class="section-title">By category</h3>
+        <div id="category-progress" class="cat-progress"></div>
+
+        <h3 class="section-title">Recent quizzes</h3>
+        <div id="quiz-history" class="history"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span class="foot-mark" aria-hidden="true">सं</span>
+      <p class="foot-title">Sanskrit Saṅgraha · made for steady practice</p>
+      <p class="foot-note">Progress stays in this browser · Namaste</p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
